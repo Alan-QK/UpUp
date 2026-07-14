@@ -1,0 +1,19 @@
+{
+  "plan_version": "1.0",
+  "plan_name": "前端到AI-Agent转型",
+  "start_date": "2026-07-14",
+  "timezone": "Asia/Shanghai",
+  "schedule": {
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "push_hour_local": 10,
+    "push_minute_local": 0
+  },
+  "total_learning_days": 120,
+  "current_day_index": 1,
+  "current_phase": 1,
+  "current_week": 1,
+  "last_pushed_date": "2026-07-14",
+  "last_pushed_day_index": 1,
+  "status": "active",
+  "notes": "首次初始化：已生成总纲，并推送 Day 1 内容。"
+}

@@ -1,0 +1,966 @@
+{
+  "version": "1.0",
+  "total_days": 120,
+  "days": {
+    "1": {
+      "day_index": 1,
+      "phase": 1,
+      "week": 1,
+      "title": "环境搭建与 Python 项目结构",
+      "focus": "uv/venv、目录约定、类型注解入门",
+      "coding": "创建可运行的 hello 项目并写类型注解函数"
+    },
+    "2": {
+      "day_index": 2,
+      "phase": 1,
+      "week": 1,
+      "title": "函数、dataclass 与异常设计",
+      "focus": "可读性与错误处理",
+      "coding": "实现带 dataclass 的配置/用户模型小模块"
+    },
+    "3": {
+      "day_index": 3,
+      "phase": 1,
+      "week": 1,
+      "title": "文件 I/O、JSON 与 pathlib",
+      "focus": "路径与序列化",
+      "coding": "读写 JSON 配置并做基础校验"
+    },
+    "4": {
+      "day_index": 4,
+      "phase": 1,
+      "week": 1,
+      "title": "模块化与 pytest 入门",
+      "focus": "测试驱动习惯",
+      "coding": "为工具函数补 3 个单元测试"
+    },
+    "5": {
+      "day_index": 5,
+      "phase": 1,
+      "week": 1,
+      "title": "周挑战：迷你 CLI 工具",
+      "focus": "端到端小项目",
+      "coding": "完成待办或笔记 CLI（增删查）"
+    },
+    "6": {
+      "day_index": 6,
+      "phase": 1,
+      "week": 2,
+      "title": "HTTP 与 httpx",
+      "focus": "请求/响应/JSON",
+      "coding": "封装 GET/POST JSON 客户端"
+    },
+    "7": {
+      "day_index": 7,
+      "phase": 1,
+      "week": 2,
+      "title": "超时、重试与错误分类",
+      "focus": "稳健网络层",
+      "coding": "实现可配置重试的 http 包装器"
+    },
+    "8": {
+      "day_index": 8,
+      "phase": 1,
+      "week": 2,
+      "title": "asyncio 基础",
+      "focus": "并发请求直觉",
+      "coding": "并发请求 3 个 URL 并汇总结果"
+    },
+    "9": {
+      "day_index": 9,
+      "phase": 1,
+      "week": 2,
+      "title": "环境变量与密钥管理",
+      "focus": "安全基本功",
+      "coding": "实现 .env 加载（不把密钥写进代码）"
+    },
+    "10": {
+      "day_index": 10,
+      "phase": 1,
+      "week": 2,
+      "title": "周挑战：多 API 聚合 CLI",
+      "focus": "组合能力",
+      "coding": "聚合 2 个公开 API 输出摘要"
+    },
+    "11": {
+      "day_index": 11,
+      "phase": 1,
+      "week": 3,
+      "title": "Chat Completions 第一次调用",
+      "focus": "LLM API 协议",
+      "coding": "完成首轮非流式对话脚本"
+    },
+    "12": {
+      "day_index": 12,
+      "phase": 1,
+      "week": 3,
+      "title": "角色消息与多轮上下文",
+      "focus": "system/user/assistant",
+      "coding": "实现角色化助手（固定人设）"
+    },
+    "13": {
+      "day_index": 13,
+      "phase": 1,
+      "week": 3,
+      "title": "流式输出",
+      "focus": "SSE/chunk 打印",
+      "coding": "实现流式终端聊天打印"
+    },
+    "14": {
+      "day_index": 14,
+      "phase": 1,
+      "week": 3,
+      "title": "Token 与成本意识",
+      "focus": "用量估算",
+      "coding": "给每次调用记录估算 token/费用日志"
+    },
+    "15": {
+      "day_index": 15,
+      "phase": 1,
+      "week": 3,
+      "title": "周挑战：多轮对话 CLI",
+      "focus": "会话循环",
+      "coding": "支持 /reset /exit 的聊天 CLI"
+    },
+    "16": {
+      "day_index": 16,
+      "phase": 1,
+      "week": 4,
+      "title": "历史消息裁剪",
+      "focus": "上下文窗口",
+      "coding": "实现滑动窗口历史策略"
+    },
+    "17": {
+      "day_index": 17,
+      "phase": 1,
+      "week": 4,
+      "title": "采样参数实验",
+      "focus": "temperature 等",
+      "coding": "对比不同 temperature 的输出差异报告"
+    },
+    "18": {
+      "day_index": 18,
+      "phase": 1,
+      "week": 4,
+      "title": "模型 Provider 抽象",
+      "focus": "可替换厂商",
+      "coding": "抽象 ChatClient 接口并做假实现"
+    },
+    "19": {
+      "day_index": 19,
+      "phase": 1,
+      "week": 4,
+      "title": "结构化日志与调试",
+      "focus": "可观测雏形",
+      "coding": "为聊天 CLI 加结构化日志"
+    },
+    "20": {
+      "day_index": 20,
+      "phase": 1,
+      "week": 4,
+      "title": "里程碑：cli-chatbot",
+      "focus": "阶段验收",
+      "coding": "打磨并提交 projects/cli-chatbot"
+    },
+    "21": {
+      "day_index": 21,
+      "phase": 2,
+      "week": 5,
+      "title": "Prompt 结构拆解",
+      "focus": "角色/任务/约束/格式",
+      "coding": "搭建 Prompt 模板函数库"
+    },
+    "22": {
+      "day_index": 22,
+      "phase": 2,
+      "week": 5,
+      "title": "Few-shot 与反例",
+      "focus": "示例驱动",
+      "coding": "完成文本分类 few-shot 练习"
+    },
+    "23": {
+      "day_index": 23,
+      "phase": 2,
+      "week": 5,
+      "title": "CoT 与直接回答对比",
+      "focus": "推理策略",
+      "coding": "同一任务两种 Prompt 对比实验"
+    },
+    "24": {
+      "day_index": 24,
+      "phase": 2,
+      "week": 5,
+      "title": "Prompt 注入入门防护",
+      "focus": "安全意识",
+      "coding": "构造并防御 3 条恶意输入"
+    },
+    "25": {
+      "day_index": 25,
+      "phase": 2,
+      "week": 5,
+      "title": "周挑战：用户故事生成器",
+      "focus": "模板化生成",
+      "coding": "需求描述 → 用户故事 JSON"
+    },
+    "26": {
+      "day_index": 26,
+      "phase": 2,
+      "week": 6,
+      "title": "JSON 结构化输出",
+      "focus": "schema 校验",
+      "coding": "用 pydantic 校验模型输出"
+    },
+    "27": {
+      "day_index": 27,
+      "phase": 2,
+      "week": 6,
+      "title": "校验失败重试",
+      "focus": "repair loop",
+      "coding": "实现最多 3 次修复重试"
+    },
+    "28": {
+      "day_index": 28,
+      "phase": 2,
+      "week": 6,
+      "title": "从函数到 JSON Schema",
+      "focus": "工具预备",
+      "coding": "把 Python 函数转成 tool schema"
+    },
+    "29": {
+      "day_index": 29,
+      "phase": 2,
+      "week": 6,
+      "title": "批量信息抽取",
+      "focus": "落地任务",
+      "coding": "从文本批抽取字段到 CSV/JSON"
+    },
+    "30": {
+      "day_index": 30,
+      "phase": 2,
+      "week": 6,
+      "title": "周挑战：会议纪要结构化",
+      "focus": "综合练习",
+      "coding": "输出决议与 action items"
+    },
+    "31": {
+      "day_index": 31,
+      "phase": 2,
+      "week": 7,
+      "title": "文档加载与清洗",
+      "focus": "RAG 数据层",
+      "coding": "实现 txt/md loader"
+    },
+    "32": {
+      "day_index": 32,
+      "phase": 2,
+      "week": 7,
+      "title": "文本切分 Chunking",
+      "focus": "切分策略",
+      "coding": "固定窗口+overlap 切分器"
+    },
+    "33": {
+      "day_index": 33,
+      "phase": 2,
+      "week": 7,
+      "title": "Embedding API",
+      "focus": "向量化",
+      "coding": "批量文本 embedding 脚本"
+    },
+    "34": {
+      "day_index": 34,
+      "phase": 2,
+      "week": 7,
+      "title": "向量库 Chroma 入门",
+      "focus": "写入与检索",
+      "coding": "写入 chunk 并 top-k 查询"
+    },
+    "35": {
+      "day_index": 35,
+      "phase": 2,
+      "week": 7,
+      "title": "周挑战：本地笔记检索",
+      "focus": "检索闭环",
+      "coding": "笔记库语义搜索 CLI"
+    },
+    "36": {
+      "day_index": 36,
+      "phase": 2,
+      "week": 8,
+      "title": "最小 RAG 生成链路",
+      "focus": "RAG 拼装",
+      "coding": "retrieve + prompt + generate"
+    },
+    "37": {
+      "day_index": 37,
+      "phase": 2,
+      "week": 8,
+      "title": "引用溯源",
+      "focus": "可信输出",
+      "coding": "答案附带来源 chunk"
+    },
+    "38": {
+      "day_index": 38,
+      "phase": 2,
+      "week": 8,
+      "title": "拒答与低相关处理",
+      "focus": "质量控制",
+      "coding": "无依据时拒答策略"
+    },
+    "39": {
+      "day_index": 39,
+      "phase": 2,
+      "week": 8,
+      "title": "RAG 简易评测",
+      "focus": "golden set",
+      "coding": "5–10 条样例人工/自动抽检"
+    },
+    "40": {
+      "day_index": 40,
+      "phase": 2,
+      "week": 8,
+      "title": "里程碑：mini-rag",
+      "focus": "阶段验收",
+      "coding": "打磨并提交 projects/mini-rag"
+    },
+    "41": {
+      "day_index": 41,
+      "phase": 3,
+      "week": 9,
+      "title": "Chatbot vs Agent",
+      "focus": "概念澄清",
+      "coding": "写对照表并举例"
+    },
+    "42": {
+      "day_index": 42,
+      "phase": 3,
+      "week": 9,
+      "title": "Tool Schema 设计",
+      "focus": "函数即工具",
+      "coding": "定义 3 个工具 schema"
+    },
+    "43": {
+      "day_index": 43,
+      "phase": 3,
+      "week": 9,
+      "title": "单轮 Tool Call 执行",
+      "focus": "执行器",
+      "coding": "解析并执行 tool call"
+    },
+    "44": {
+      "day_index": 44,
+      "phase": 3,
+      "week": 9,
+      "title": "工具结果回填多轮",
+      "focus": "消息协议",
+      "coding": "完成 tool 结果再问模型"
+    },
+    "45": {
+      "day_index": 45,
+      "phase": 3,
+      "week": 9,
+      "title": "周挑战：双工具 Agent",
+      "focus": "最小可用",
+      "coding": "时间+计算器 Agent"
+    },
+    "46": {
+      "day_index": 46,
+      "phase": 3,
+      "week": 10,
+      "title": "ReAct 与 Agent Loop",
+      "focus": "核心循环",
+      "coding": "手写最小 loop"
+    },
+    "47": {
+      "day_index": 47,
+      "phase": 3,
+      "week": 10,
+      "title": "终止条件与步数限制",
+      "focus": "防死循环",
+      "coding": "max_steps + stop 规则"
+    },
+    "48": {
+      "day_index": 48,
+      "phase": 3,
+      "week": 10,
+      "title": "工具错误恢复",
+      "focus": "稳健性",
+      "coding": "非法参数时让模型纠正"
+    },
+    "49": {
+      "day_index": 49,
+      "phase": 3,
+      "week": 10,
+      "title": "轨迹日志 Trace",
+      "focus": "可回放",
+      "coding": "打印每步 action/observation"
+    },
+    "50": {
+      "day_index": 50,
+      "phase": 3,
+      "week": 10,
+      "title": "周挑战：只读文件助手",
+      "focus": "权限边界",
+      "coding": "目录列举+读文件（只读）"
+    },
+    "51": {
+      "day_index": 51,
+      "phase": 3,
+      "week": 11,
+      "title": "框架选型原则",
+      "focus": "少而精",
+      "coding": "写选型笔记（1 页）"
+    },
+    "52": {
+      "day_index": 52,
+      "phase": 3,
+      "week": 11,
+      "title": "框架重写手写 Agent",
+      "focus": "对照理解",
+      "coding": "用框架实现同能力"
+    },
+    "53": {
+      "day_index": 53,
+      "phase": 3,
+      "week": 11,
+      "title": "自定义工具接入框架",
+      "focus": "扩展",
+      "coding": "新增 1 个业务工具"
+    },
+    "54": {
+      "day_index": 54,
+      "phase": 3,
+      "week": 11,
+      "title": "流式事件与工具状态",
+      "focus": "产品化信号",
+      "coding": "输出 tool_start/tool_end 事件"
+    },
+    "55": {
+      "day_index": 55,
+      "phase": 3,
+      "week": 11,
+      "title": "周挑战：手写 vs 框架对比",
+      "focus": "认知沉淀",
+      "coding": "输出对比报告"
+    },
+    "56": {
+      "day_index": 56,
+      "phase": 3,
+      "week": 12,
+      "title": "Prompt Injection 案例集",
+      "focus": "攻防",
+      "coding": "收集并复现 3 类攻击"
+    },
+    "57": {
+      "day_index": 57,
+      "phase": 3,
+      "week": 12,
+      "title": "工具白名单与参数校验",
+      "focus": "安全层",
+      "coding": "实现允许列表+校验"
+    },
+    "58": {
+      "day_index": 58,
+      "phase": 3,
+      "week": 12,
+      "title": "Mock LLM 单测",
+      "focus": "可测性",
+      "coding": "pytest 覆盖关键分支"
+    },
+    "59": {
+      "day_index": 59,
+      "phase": 3,
+      "week": 12,
+      "title": "HITL 确认钩子",
+      "focus": "人机协作",
+      "coding": "危险操作需确认"
+    },
+    "60": {
+      "day_index": 60,
+      "phase": 3,
+      "week": 12,
+      "title": "里程碑：tool-agent",
+      "focus": "阶段验收",
+      "coding": "打磨并提交 projects/tool-agent"
+    },
+    "61": {
+      "day_index": 61,
+      "phase": 4,
+      "week": 13,
+      "title": "会话记忆回顾",
+      "focus": "短记忆",
+      "coding": "增强历史窗口策略"
+    },
+    "62": {
+      "day_index": 62,
+      "phase": 4,
+      "week": 13,
+      "title": "摘要记忆",
+      "focus": "压缩上下文",
+      "coding": "超长对话自动摘要"
+    },
+    "63": {
+      "day_index": 63,
+      "phase": 4,
+      "week": 13,
+      "title": "长期向量记忆",
+      "focus": "跨会话",
+      "coding": "存储/检索用户偏好"
+    },
+    "64": {
+      "day_index": 64,
+      "phase": 4,
+      "week": 13,
+      "title": "记忆写入策略",
+      "focus": "何时记忆",
+      "coding": "实现记忆决策启发式"
+    },
+    "65": {
+      "day_index": 65,
+      "phase": 4,
+      "week": 13,
+      "title": "周挑战：带记忆助理",
+      "focus": "综合",
+      "coding": "跨两次运行仍记得偏好"
+    },
+    "66": {
+      "day_index": 66,
+      "phase": 4,
+      "week": 14,
+      "title": "任务分解 Planner",
+      "focus": "规划",
+      "coding": "目标 → 步骤列表"
+    },
+    "67": {
+      "day_index": 67,
+      "phase": 4,
+      "week": 14,
+      "title": "Plan-and-Execute",
+      "focus": "执行",
+      "coding": "按计划逐步调用工具"
+    },
+    "68": {
+      "day_index": 68,
+      "phase": 4,
+      "week": 14,
+      "title": "Reflection 反思纠错",
+      "focus": "自评",
+      "coding": "增加 critic 轮"
+    },
+    "69": {
+      "day_index": 69,
+      "phase": 4,
+      "week": 14,
+      "title": "状态机视角",
+      "focus": "建模",
+      "coding": "画出 Agent 状态图"
+    },
+    "70": {
+      "day_index": 70,
+      "phase": 4,
+      "week": 14,
+      "title": "周挑战：多步研究任务",
+      "focus": "规划落地",
+      "coding": "可展示计划与执行结果"
+    },
+    "71": {
+      "day_index": 71,
+      "phase": 4,
+      "week": 15,
+      "title": "何时用多智能体",
+      "focus": "决策",
+      "coding": "写适用/不适用清单"
+    },
+    "72": {
+      "day_index": 72,
+      "phase": 4,
+      "week": 15,
+      "title": "流水线双 Agent",
+      "focus": "协作",
+      "coding": "Researcher→Writer"
+    },
+    "73": {
+      "day_index": 73,
+      "phase": 4,
+      "week": 15,
+      "title": "主管-工人模式",
+      "focus": "路由",
+      "coding": "Supervisor 分派任务"
+    },
+    "74": {
+      "day_index": 74,
+      "phase": 4,
+      "week": 15,
+      "title": "消息总线/黑板",
+      "focus": "通信",
+      "coding": "实现简单共享状态"
+    },
+    "75": {
+      "day_index": 75,
+      "phase": 4,
+      "week": 15,
+      "title": "周挑战：三角色协作",
+      "focus": "多智能体",
+      "coding": "研究+写作+审校"
+    },
+    "76": {
+      "day_index": 76,
+      "phase": 4,
+      "week": 16,
+      "title": "HITL 审批节点",
+      "focus": "可控",
+      "coding": "发布前人工确认"
+    },
+    "77": {
+      "day_index": 77,
+      "phase": 4,
+      "week": 16,
+      "title": "循环与冲突检测",
+      "focus": "稳定性",
+      "coding": "检测重复工具调用"
+    },
+    "78": {
+      "day_index": 78,
+      "phase": 4,
+      "week": 16,
+      "title": "多智能体成本控制",
+      "focus": "预算",
+      "coding": "全局 step/token 限额"
+    },
+    "79": {
+      "day_index": 79,
+      "phase": 4,
+      "week": 16,
+      "title": "演示脚本",
+      "focus": "可演示",
+      "coding": "准备 2 个样例任务"
+    },
+    "80": {
+      "day_index": 80,
+      "phase": 4,
+      "week": 16,
+      "title": "里程碑：research-crew",
+      "focus": "阶段验收",
+      "coding": "打磨并提交 projects/research-crew"
+    },
+    "81": {
+      "day_index": 81,
+      "phase": 5,
+      "week": 17,
+      "title": "FastAPI 入门",
+      "focus": "服务化",
+      "coding": "Hello + 健康检查"
+    },
+    "82": {
+      "day_index": 82,
+      "phase": 5,
+      "week": 17,
+      "title": "Chat API 设计",
+      "focus": "接口",
+      "coding": "POST /chat"
+    },
+    "83": {
+      "day_index": 83,
+      "phase": 5,
+      "week": 17,
+      "title": "SSE 流式接口",
+      "focus": "流式",
+      "coding": "POST /chat/stream"
+    },
+    "84": {
+      "day_index": 84,
+      "phase": 5,
+      "week": 17,
+      "title": "会话存储",
+      "focus": "状态",
+      "coding": "session_id 续聊"
+    },
+    "85": {
+      "day_index": 85,
+      "phase": 5,
+      "week": 17,
+      "title": "周挑战：完善 OpenAPI",
+      "focus": "可用性",
+      "coding": "可在文档页调试"
+    },
+    "86": {
+      "day_index": 86,
+      "phase": 5,
+      "week": 18,
+      "title": "超时与取消",
+      "focus": "可靠性",
+      "coding": "请求超时与取消处理"
+    },
+    "87": {
+      "day_index": 87,
+      "phase": 5,
+      "week": 18,
+      "title": "重试与幂等",
+      "focus": "一致性",
+      "coding": "request_id 幂等键"
+    },
+    "88": {
+      "day_index": 88,
+      "phase": 5,
+      "week": 18,
+      "title": "限流与配额",
+      "focus": "保护",
+      "coding": "简单限流中间件"
+    },
+    "89": {
+      "day_index": 89,
+      "phase": 5,
+      "week": 18,
+      "title": "配置分层",
+      "focus": "环境",
+      "coding": "dev/prod settings"
+    },
+    "90": {
+      "day_index": 90,
+      "phase": 5,
+      "week": 18,
+      "title": "周挑战：故障注入",
+      "focus": "演练",
+      "coding": "模拟上游失败并观察行为"
+    },
+    "91": {
+      "day_index": 91,
+      "phase": 5,
+      "week": 19,
+      "title": "Golden Set 设计",
+      "focus": "评测",
+      "coding": "整理 20 条用例"
+    },
+    "92": {
+      "day_index": 92,
+      "phase": 5,
+      "week": 19,
+      "title": "自动评分器",
+      "focus": "Eval",
+      "coding": "规则分 + LLM judge"
+    },
+    "93": {
+      "day_index": 93,
+      "phase": 5,
+      "week": 19,
+      "title": "轨迹评测",
+      "focus": "过程质量",
+      "coding": "断言不应调用的工具"
+    },
+    "94": {
+      "day_index": 94,
+      "phase": 5,
+      "week": 19,
+      "title": "回归策略",
+      "focus": "防回退",
+      "coding": "改 prompt 后跑 eval"
+    },
+    "95": {
+      "day_index": 95,
+      "phase": 5,
+      "week": 19,
+      "title": "周挑战：评测报告",
+      "focus": "产出",
+      "coding": "生成 markdown 报告"
+    },
+    "96": {
+      "day_index": 96,
+      "phase": 5,
+      "week": 20,
+      "title": "结构化日志",
+      "focus": "观测",
+      "coding": "correlation id 串联"
+    },
+    "97": {
+      "day_index": 97,
+      "phase": 5,
+      "week": 20,
+      "title": "Tracing 概念实践",
+      "focus": "追踪",
+      "coding": "给关键跨度埋点"
+    },
+    "98": {
+      "day_index": 98,
+      "phase": 5,
+      "week": 20,
+      "title": "成本汇总脚本",
+      "focus": "经营意识",
+      "coding": "按日汇总 token 费用"
+    },
+    "99": {
+      "day_index": 99,
+      "phase": 5,
+      "week": 20,
+      "title": "Docker 打包",
+      "focus": "部署",
+      "coding": "编写 Dockerfile 并运行"
+    },
+    "100": {
+      "day_index": 100,
+      "phase": 5,
+      "week": 20,
+      "title": "里程碑：agent-api",
+      "focus": "阶段验收",
+      "coding": "打磨并提交 projects/agent-api"
+    },
+    "101": {
+      "day_index": 101,
+      "phase": 6,
+      "week": 21,
+      "title": "前端消费 SSE",
+      "focus": "前后端打通",
+      "coding": "最小页面流式显示"
+    },
+    "102": {
+      "day_index": 102,
+      "phase": 6,
+      "week": 21,
+      "title": "对话 UI 基础",
+      "focus": "体验",
+      "coding": "消息列表与 Markdown"
+    },
+    "103": {
+      "day_index": 103,
+      "phase": 6,
+      "week": 21,
+      "title": "工具状态可视化",
+      "focus": "可解释",
+      "coding": "展示 tool 调用中/完成"
+    },
+    "104": {
+      "day_index": 104,
+      "phase": 6,
+      "week": 21,
+      "title": "取消与重连",
+      "focus": "稳健前端",
+      "coding": "AbortController 实践"
+    },
+    "105": {
+      "day_index": 105,
+      "phase": 6,
+      "week": 21,
+      "title": "周挑战：Chat Console",
+      "focus": "联调",
+      "coding": "完整可演示控制台"
+    },
+    "106": {
+      "day_index": 106,
+      "phase": 6,
+      "week": 22,
+      "title": "主打项目选题",
+      "focus": "产品定义",
+      "coding": "一页纸需求与边界"
+    },
+    "107": {
+      "day_index": 107,
+      "phase": 6,
+      "week": 22,
+      "title": "核心路径闭环",
+      "focus": "交付",
+      "coding": "happy path 跑通"
+    },
+    "108": {
+      "day_index": 108,
+      "phase": 6,
+      "week": 22,
+      "title": "异常与空态",
+      "focus": "打磨",
+      "coding": "失败提示与空结果"
+    },
+    "109": {
+      "day_index": 109,
+      "phase": 6,
+      "week": 22,
+      "title": "性能与成本优化",
+      "focus": "优化",
+      "coding": "少召回/缓存一轮"
+    },
+    "110": {
+      "day_index": 110,
+      "phase": 6,
+      "week": 22,
+      "title": "周挑战：演示脚本",
+      "focus": "表达",
+      "coding": "3–5 分钟演示稿"
+    },
+    "111": {
+      "day_index": 111,
+      "phase": 6,
+      "week": 23,
+      "title": "专业化 README",
+      "focus": "作品集",
+      "coding": "架构图+快速开始"
+    },
+    "112": {
+      "day_index": 112,
+      "phase": 6,
+      "week": 23,
+      "title": "系统设计题练习",
+      "focus": "面试",
+      "coding": "设计客服 Agent 书面答案"
+    },
+    "113": {
+      "day_index": 113,
+      "phase": 6,
+      "week": 23,
+      "title": "面试闪卡",
+      "focus": "理论",
+      "coding": "RAG/Agent/Eval 闪卡 20 张"
+    },
+    "114": {
+      "day_index": 114,
+      "phase": 6,
+      "week": 23,
+      "title": "技术文章一篇",
+      "focus": "输出",
+      "coding": "把踩坑写成博客级笔记"
+    },
+    "115": {
+      "day_index": 115,
+      "phase": 6,
+      "week": 23,
+      "title": "周挑战：讲解稿",
+      "focus": "表达",
+      "coding": "3 分钟项目讲解"
+    },
+    "116": {
+      "day_index": 116,
+      "phase": 6,
+      "week": 24,
+      "title": "弱项查漏补缺",
+      "focus": "缓冲",
+      "coding": "针对错题/弱模块加练"
+    },
+    "117": {
+      "day_index": 117,
+      "phase": 6,
+      "week": 24,
+      "title": "安全复盘清单",
+      "focus": "安全",
+      "coding": "密钥/工具/注入检查表"
+    },
+    "118": {
+      "day_index": 118,
+      "phase": 6,
+      "week": 24,
+      "title": "仓库开源整理",
+      "focus": "工程",
+      "coding": "依赖锁定与清理"
+    },
+    "119": {
+      "day_index": 119,
+      "phase": 6,
+      "week": 24,
+      "title": "个人转型复盘",
+      "focus": "总结",
+      "coding": "写学习复盘报告"
+    },
+    "120": {
+      "day_index": 120,
+      "phase": 6,
+      "week": 24,
+      "title": "结营与进阶路线",
+      "focus": "收官",
+      "coding": "输出 roadmap v2"
+    }
+  }
+}
