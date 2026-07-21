@@ -1,21 +1,21 @@
 # 今日学习推送
 
-> 更新日期：2026-07-14  
-> 学习日：Day **1** / 120 · Phase 1 · Week 1
+> 更新日期：2026-07-21  
+> 学习日：Day **2** / 120 · Phase 1 · Week 1
 
 ## 主题
 
-**环境搭建与 Python 项目结构**
+**函数、dataclass 与异常设计**
 
 ## 今日要做什么
 
-1. 阅读总纲：[`curriculum/00-总纲.md`](./curriculum/00-总纲.md)
-2. 完成练习：[`daily/2026-07-14/`](./daily/2026-07-14/)
-3. 跑通：`cd daily/2026-07-14/exercise && python -m pytest -q`
+1. 阅读笔记：[`daily/2026-07-21/notes.md`](./daily/2026-07-21/notes.md)
+2. 完成练习：[`daily/2026-07-21/`](./daily/2026-07-21/)
+3. 跑通：`cd daily/2026-07-21/exercise && python -m pytest -q`
 
 ## 一句话练习
 
-实现带类型注解的 `greet` / `greet_many`，空名字抛 `ValueError`，pytest 全绿。
+用 dataclass + Enum 建模 `User` / `AgentConfig`，并用自定义异常做输入校验。
 
 ## 进度
 
