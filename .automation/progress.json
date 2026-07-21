@@ -9,11 +9,11 @@
     "push_minute_local": 0
   },
   "total_learning_days": 120,
-  "current_day_index": 1,
+  "current_day_index": 2,
   "current_phase": 1,
   "current_week": 1,
-  "last_pushed_date": "2026-07-14",
-  "last_pushed_day_index": 1,
+  "last_pushed_date": "2026-07-21",
+  "last_pushed_day_index": 2,
   "status": "active",
-  "notes": "首次初始化：已生成总纲，并推送 Day 1 内容。"
+  "notes": "已推送 Day 2：函数、dataclass 与异常设计。下次应推送 Day 3（文件 I/O、JSON 与 pathlib）。"
 }
