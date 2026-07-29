@@ -9,11 +9,11 @@
     "push_minute_local": 0
   },
   "total_learning_days": 120,
-  "current_day_index": 6,
+  "current_day_index": 7,
   "current_phase": 1,
   "current_week": 2,
-  "last_pushed_date": "2026-07-27",
-  "last_pushed_day_index": 6,
+  "last_pushed_date": "2026-07-29",
+  "last_pushed_day_index": 7,
   "status": "active",
-  "notes": "已推送 Day 6：HTTP 与 httpx。下次应推送 Day 7（超时、重试与错误分类）。"
+  "notes": "已推送 Day 7：超时、重试与错误分类。下次应推送 Day 8（asyncio 基础）。"
 }
