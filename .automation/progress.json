@@ -9,11 +9,11 @@
     "push_minute_local": 0
   },
   "total_learning_days": 120,
-  "current_day_index": 11,
+  "current_day_index": 12,
   "current_phase": 1,
   "current_week": 3,
-  "last_pushed_date": "2026-08-04",
-  "last_pushed_day_index": 11,
+  "last_pushed_date": "2026-08-05",
+  "last_pushed_day_index": 12,
   "status": "active",
-  "notes": "已推送 Day 11：Chat Completions 第一次调用。下次应推送 Day 12（角色消息与多轮上下文）。"
+  "notes": "已推送 Day 12：角色消息与多轮上下文。下次应推送 Day 13（流式输出）。"
 }
