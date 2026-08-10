@@ -7,7 +7,7 @@ import json
 import httpx
 import pytest
 
-from chat_client import ChatClient, ChatHttpError
+from chat_client import ChatClient, ChatClientError, ChatHttpError
 from chat_session import ChatSession, SessionReply
 from persona_assistant import PersonaAssistant
 
