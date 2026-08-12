@@ -9,11 +9,11 @@
     "push_minute_local": 0
   },
   "total_learning_days": 120,
-  "current_day_index": 16,
+  "current_day_index": 17,
   "current_phase": 1,
   "current_week": 4,
-  "last_pushed_date": "2026-08-11",
-  "last_pushed_day_index": 16,
+  "last_pushed_date": "2026-08-12",
+  "last_pushed_day_index": 17,
   "status": "active",
-  "notes": "已推送 Day 16：历史消息裁剪（滑动窗口）。下次应推送 Day 17（采样参数实验）。"
+  "notes": "已推送 Day 17：采样参数实验。下次应推送 Day 18（模型 Provider 抽象）。"
 }
