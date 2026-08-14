@@ -9,11 +9,11 @@
     "push_minute_local": 0
   },
   "total_learning_days": 120,
-  "current_day_index": 18,
+  "current_day_index": 19,
   "current_phase": 1,
   "current_week": 4,
-  "last_pushed_date": "2026-08-13",
-  "last_pushed_day_index": 18,
+  "last_pushed_date": "2026-08-14",
+  "last_pushed_day_index": 19,
   "status": "active",
-  "notes": "已推送 Day 18：模型 Provider 抽象。下次应推送 Day 19（结构化日志与调试）。"
+  "notes": "已推送 Day 19：结构化日志与调试。下次应推送 Day 20（里程碑：cli-chatbot）。"
 }
