@@ -9,11 +9,11 @@
     "push_minute_local": 0
   },
   "total_learning_days": 120,
-  "current_day_index": 22,
+  "current_day_index": 23,
   "current_phase": 2,
   "current_week": 5,
-  "last_pushed_date": "2026-08-21",
-  "last_pushed_day_index": 22,
+  "last_pushed_date": "2026-08-24",
+  "last_pushed_day_index": 23,
   "status": "active",
-  "notes": "已推送 Day 22：Few-shot 与反例。下次应推送 Day 23（思维链 vs 直接答案）。"
+  "notes": "已推送 Day 23：CoT 与直接回答对比。下次应推送 Day 24（Prompt 注入入门防护）。"
 }
