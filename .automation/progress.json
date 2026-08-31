@@ -9,11 +9,11 @@
     "push_minute_local": 0
   },
   "total_learning_days": 120,
-  "current_day_index": 27,
+  "current_day_index": 28,
   "current_phase": 2,
   "current_week": 6,
-  "last_pushed_date": "2026-08-28",
-  "last_pushed_day_index": 27,
+  "last_pushed_date": "2026-08-31",
+  "last_pushed_day_index": 28,
   "status": "active",
-  "notes": "已推送 Day 27：校验失败重试。下次应推送 Day 28（从函数到 JSON Schema）。"
+  "notes": "已推送 Day 28：从函数到 JSON Schema。下次应推送 Day 29（批量信息抽取）。"
 }
