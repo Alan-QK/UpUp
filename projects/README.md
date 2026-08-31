@@ -4,7 +4,7 @@
 
 | 阶段 | 目录 | 说明 |
 |------|------|------|
-| Phase 1 | `cli-chatbot/` | 命令行流式聊天 |
+| Phase 1 | [`cli-chatbot/`](./cli-chatbot/) | 命令行流式聊天（Day 20 已提交脚手架） |
 | Phase 2 | `mini-rag/` | 最小 RAG 问答 |
 | Phase 3 | `tool-agent/` | 工具调用 Agent |
 | Phase 4 | `research-crew/` | 多智能体协作 |
