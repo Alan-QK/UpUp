@@ -9,11 +9,11 @@
     "push_minute_local": 0
   },
   "total_learning_days": 120,
-  "current_day_index": 30,
+  "current_day_index": 31,
   "current_phase": 2,
-  "current_week": 6,
-  "last_pushed_date": "2026-09-02",
-  "last_pushed_day_index": 30,
+  "current_week": 7,
+  "last_pushed_date": "2026-09-03",
+  "last_pushed_day_index": 31,
   "status": "active",
-  "notes": "已推送 Day 30：周挑战：会议纪要结构化。下次应推送 Day 31（文档加载与清洗）。"
+  "notes": "已推送 Day 31：文档加载与清洗。下次应推送 Day 32（文本切分 Chunking）。"
 }
