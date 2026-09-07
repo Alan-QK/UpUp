@@ -9,11 +9,11 @@
     "push_minute_local": 0
   },
   "total_learning_days": 120,
-  "current_day_index": 32,
+  "current_day_index": 33,
   "current_phase": 2,
   "current_week": 7,
-  "last_pushed_date": "2026-09-04",
-  "last_pushed_day_index": 32,
+  "last_pushed_date": "2026-09-07",
+  "last_pushed_day_index": 33,
   "status": "active",
-  "notes": "已推送 Day 32：文本切分 Chunking。下次应推送 Day 33（Embedding API）。"
+  "notes": "已推送 Day 33：Embedding API。下次应推送 Day 34（向量库 Chroma 入门）。"
 }
