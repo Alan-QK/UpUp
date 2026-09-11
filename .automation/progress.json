@@ -9,11 +9,11 @@
     "push_minute_local": 0
   },
   "total_learning_days": 120,
-  "current_day_index": 36,
+  "current_day_index": 37,
   "current_phase": 2,
   "current_week": 8,
-  "last_pushed_date": "2026-09-10",
-  "last_pushed_day_index": 36,
+  "last_pushed_date": "2026-09-11",
+  "last_pushed_day_index": 37,
   "status": "active",
-  "notes": "已推送 Day 36：最小 RAG 生成链路。下次应推送 Day 37（引用溯源）。"
+  "notes": "已推送 Day 37：引用溯源。下次应推送 Day 38（拒答与低相关处理）。"
 }
