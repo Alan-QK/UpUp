@@ -9,11 +9,11 @@
     "push_minute_local": 0
   },
   "total_learning_days": 120,
-  "current_day_index": 41,
+  "current_day_index": 42,
   "current_phase": 3,
   "current_week": 9,
-  "last_pushed_date": "2026-09-17",
-  "last_pushed_day_index": 41,
+  "last_pushed_date": "2026-09-18",
+  "last_pushed_day_index": 42,
   "status": "active",
-  "notes": "已推送 Day 41：Chatbot vs Agent。下次应推送 Day 42（Tool Schema 设计）。"
+  "notes": "已推送 Day 42：Tool Schema 设计。下次应推送 Day 43（单轮 Tool Call 执行）。"
 }
