@@ -9,11 +9,11 @@
     "push_minute_local": 0
   },
   "total_learning_days": 120,
-  "current_day_index": 43,
+  "current_day_index": 44,
   "current_phase": 3,
   "current_week": 9,
-  "last_pushed_date": "2026-09-21",
-  "last_pushed_day_index": 43,
+  "last_pushed_date": "2026-09-23",
+  "last_pushed_day_index": 44,
   "status": "active",
-  "notes": "已推送 Day 43：单轮 Tool Call 执行。下次应推送 Day 44（工具结果回填多轮）。"
+  "notes": "已推送 Day 44：工具结果回填多轮。下次应推送 Day 45（周挑战：双工具 Agent）。"
 }
