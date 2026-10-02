@@ -1,22 +1,22 @@
 # 今日学习推送
 
-> 更新日期：2026-10-01  
-> 学习日：Day **50** / 120 · Phase 3 · Week 10
+> 更新日期：2026-10-02  
+> 学习日：Day **51** / 120 · Phase 3 · Week 11
 
 ## 主题
 
-**周挑战：只读文件助手**
+**框架选型原则**
 
 ## 今日要做什么
 
-1. 阅读笔记：[`daily/2026-10-01/notes.md`](./daily/2026-10-01/notes.md)
-2. 完成练习：[`daily/2026-10-01/`](./daily/2026-10-01/)
-3. 跑通：`cd daily/2026-10-01/exercise && python3 -m pytest -q`
-4. 手工试跑：`python3 main.py --demo` / `python3 main.py --escape`
+1. 阅读笔记：[`daily/2026-10-02/notes.md`](./daily/2026-10-02/notes.md)
+2. 完成练习：[`daily/2026-10-02/`](./daily/2026-10-02/)
+3. 跑通：`cd daily/2026-10-02/exercise && python3 -m pytest -q`
+4. 手工试跑：`python3 main.py --demo` / `python3 main.py --goal learn_loop --note`
 
 ## 一句话练习
 
-给 Agent 装上 `list_directory` + `read_file`，用路径沙箱守住权限边界；越界必须 `ERROR` 回填并可纠正。
+用「少而精」规则给 Agent 框架打分选型，并渲染一页可贴进团队文档的选型笔记。
 
 ## 进度
 
