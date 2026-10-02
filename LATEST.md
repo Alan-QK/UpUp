@@ -1,22 +1,22 @@
 # 今日学习推送
 
-> 更新日期：2026-07-31  
-> 学习日：Day **9** / 120 · Phase 1 · Week 2
+> 更新日期：2026-10-02  
+> 学习日：Day **51** / 120 · Phase 3 · Week 11
 
 ## 主题
 
-**环境变量与密钥管理**
+**框架选型原则**
 
 ## 今日要做什么
 
-1. 阅读笔记：[`daily/2026-07-31/notes.md`](./daily/2026-07-31/notes.md)
-2. 完成练习：[`daily/2026-07-31/`](./daily/2026-07-31/)
-3. 跑通：`cd daily/2026-07-31/exercise && python3 -m pytest -q`
-4. 手工试跑：`python3 main.py`
+1. 阅读笔记：[`daily/2026-10-02/notes.md`](./daily/2026-10-02/notes.md)
+2. 完成练习：[`daily/2026-10-02/`](./daily/2026-10-02/)
+3. 跑通：`cd daily/2026-10-02/exercise && python3 -m pytest -q`
+4. 手工试跑：`python3 main.py --demo` / `python3 main.py --goal learn_loop --note`
 
 ## 一句话练习
 
-手写 `.env` 加载器：解析、注入、必填校验与密钥脱敏；API Key 永不写进代码。
+用「少而精」规则给 Agent 框架打分选型，并渲染一页可贴进团队文档的选型笔记。
 
 ## 进度
 
