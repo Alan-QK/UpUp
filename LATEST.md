@@ -1,22 +1,22 @@
 # 今日学习推送
 
-> 更新日期：2026-07-31  
-> 学习日：Day **9** / 120 · Phase 1 · Week 2
+> 更新日期：2026-10-09  
+> 学习日：Day **56** / 120 · Phase 3 · Week 12
 
 ## 主题
 
-**环境变量与密钥管理**
+**Prompt Injection 案例集**
 
 ## 今日要做什么
 
-1. 阅读笔记：[`daily/2026-07-31/notes.md`](./daily/2026-07-31/notes.md)
-2. 完成练习：[`daily/2026-07-31/`](./daily/2026-07-31/)
-3. 跑通：`cd daily/2026-07-31/exercise && python3 -m pytest -q`
-4. 手工试跑：`python3 main.py`
+1. 阅读笔记：[`daily/2026-10-09/notes.md`](./daily/2026-10-09/notes.md)
+2. 完成练习：[`daily/2026-10-09/`](./daily/2026-10-09/)
+3. 跑通：`cd daily/2026-10-09/exercise && python3 -m pytest -q`
+4. 手工试跑：`python3 main.py --demo` / `python3 main.py --case indirect --report`
 
 ## 一句话练习
 
-手写 `.env` 加载器：解析、注入、必填校验与密钥脱敏；API Key 永不写进代码。
+收集并在本地 mock 中复现三类 Prompt Injection（直接 / 间接 / 窃密），建成可检测的案例库。
 
 ## 进度
 
