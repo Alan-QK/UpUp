@@ -9,11 +9,11 @@
     "push_minute_local": 0
   },
   "total_learning_days": 120,
-  "current_day_index": 56,
+  "current_day_index": 57,
   "current_phase": 3,
   "current_week": 12,
-  "last_pushed_date": "2026-10-09",
-  "last_pushed_day_index": 56,
+  "last_pushed_date": "2026-10-12",
+  "last_pushed_day_index": 57,
   "status": "active",
-  "notes": "已推送 Day 56：Prompt Injection 案例集。下次应推送 Day 57（工具白名单与参数校验）。"
+  "notes": "已推送 Day 57：工具白名单与参数校验。下次应推送 Day 58（Mock LLM 单测）。"
 }
