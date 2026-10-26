@@ -1,22 +1,23 @@
 # 今日学习推送
 
-> 更新日期：2026-07-31  
-> 学习日：Day **9** / 120 · Phase 1 · Week 2
+> 更新日期：2026-10-26  
+> 学习日：Day **60** / 120 · Phase 3 · Week 12
 
 ## 主题
 
-**环境变量与密钥管理**
+**里程碑：tool-agent**
 
 ## 今日要做什么
 
-1. 阅读笔记：[`daily/2026-07-31/notes.md`](./daily/2026-07-31/notes.md)
-2. 完成练习：[`daily/2026-07-31/`](./daily/2026-07-31/)
-3. 跑通：`cd daily/2026-07-31/exercise && python3 -m pytest -q`
-4. 手工试跑：`python3 main.py`
+1. 阅读笔记：[`daily/2026-10-26/notes.md`](./daily/2026-10-26/notes.md)
+2. 完成练习：[`daily/2026-10-26/`](./daily/2026-10-26/)
+3. 跑通：`cd daily/2026-10-26/exercise && python3 -m pytest -q`
+4. 手工试跑：`python3 main.py demo` / `python3 main.py report`
+5. 对照项目：[`projects/tool-agent/`](./projects/tool-agent/)
 
 ## 一句话练习
 
-手写 `.env` 加载器：解析、注入、必填校验与密钥脱敏；API Key 永不写进代码。
+把 Phase 3 收成可演示 Agent：多工具 + 手写 Loop + Guard + HITL + Trace + Mock 验收；提交 `projects/tool-agent`。
 
 ## 进度
 
