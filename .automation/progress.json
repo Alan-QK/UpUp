@@ -9,11 +9,11 @@
     "push_minute_local": 0
   },
   "total_learning_days": 120,
-  "current_day_index": 9,
-  "current_phase": 1,
-  "current_week": 2,
-  "last_pushed_date": "2026-07-31",
-  "last_pushed_day_index": 9,
+  "current_day_index": 66,
+  "current_phase": 4,
+  "current_week": 14,
+  "last_pushed_date": "2026-11-04",
+  "last_pushed_day_index": 66,
   "status": "active",
-  "notes": "已推送 Day 9：环境变量与密钥管理。下次应推送 Day 10（周挑战：多 API 聚合 CLI）。"
+  "notes": "已推送 Day 66：任务分解 Planner（目标 → 步骤列表）。下次应推送 Day 67（Plan-and-Execute）。"
 }
