@@ -9,11 +9,11 @@
     "push_minute_local": 0
   },
   "total_learning_days": 120,
-  "current_day_index": 68,
+  "current_day_index": 69,
   "current_phase": 4,
   "current_week": 14,
-  "last_pushed_date": "2026-11-06",
-  "last_pushed_day_index": 68,
+  "last_pushed_date": "2026-11-09",
+  "last_pushed_day_index": 69,
   "status": "active",
-  "notes": "已推送 Day 68：Reflection 反思纠错（增加 critic 轮）。下次应推送 Day 69（状态机视角）。"
+  "notes": "已推送 Day 69：状态机视角（画出 Agent 状态图）。下次应推送 Day 70（周挑战：多步研究任务）。"
 }
