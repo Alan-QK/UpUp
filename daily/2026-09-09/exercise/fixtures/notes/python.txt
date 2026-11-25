@@ -1,0 +1,5 @@
+Python 笔记
+
+dataclass 适合做不可变数据模型；pathlib 处理路径比字符串拼接更稳。
+pytest 用 assert 断言；httpx 适合写 HTTP / Embedding 客户端。
+环境变量放 .env，API Key 永不写进代码仓库。
