@@ -1,0 +1,5 @@
+Python 实践
+
+dataclass 适合做 RetrievedChunk / RagAnswer 这类不可变结果模型。
+pytest 测 Prompt 拼装时，用假 generate_fn，不要打真实 LLM。
+httpx.MockTransport 适合测真实 Chat Completions 客户端；今日练习用可注入回调即可。
