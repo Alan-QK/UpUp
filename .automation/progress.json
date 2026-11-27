@@ -9,11 +9,11 @@
     "push_minute_local": 0
   },
   "total_learning_days": 120,
-  "current_day_index": 71,
+  "current_day_index": 72,
   "current_phase": 4,
   "current_week": 15,
-  "last_pushed_date": "2026-11-26",
-  "last_pushed_day_index": 71,
+  "last_pushed_date": "2026-11-27",
+  "last_pushed_day_index": 72,
   "status": "active",
-  "notes": "已推送 Day 71：何时用多智能体（适用/不适用信号 + 决策清单）。下次应推送 Day 72（流水线：Research → Write）。"
+  "notes": "已推送 Day 72：流水线双 Agent（Researcher → Writer）。下次应推送 Day 73（主管-工人模式）。"
 }

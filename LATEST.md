@@ -1,22 +1,22 @@
 # 今日学习推送
 
-> 更新日期：2026-11-26  
-> 学习日：Day **71** / 120 · Phase 4 · Week 15
+> 更新日期：2026-11-27  
+> 学习日：Day **72** / 120 · Phase 4 · Week 15
 
 ## 主题
 
-**何时用多智能体**
+**流水线双 Agent：Research → Write**
 
 ## 今日要做什么
 
-1. 阅读笔记：[`daily/2026-11-26/notes.md`](./daily/2026-11-26/notes.md)
-2. 完成练习：[`daily/2026-11-26/`](./daily/2026-11-26/)
-3. 跑通：`cd daily/2026-11-26/exercise && python3 -m pytest -q`
-4. 手工试跑：`python3 main.py --demo` / `--checklist` / `--report`
+1. 阅读笔记：[`daily/2026-11-27/notes.md`](./daily/2026-11-27/notes.md)
+2. 完成练习：[`daily/2026-11-27/`](./daily/2026-11-27/)
+3. 跑通：`cd daily/2026-11-27/exercise && python3 -m pytest -q`
+4. 手工试跑：`python3 main.py --demo` / `--topic "向量数据库选型"` / `--report`
 
 ## 一句话练习
 
-用适用/不适用信号给任务打分，输出 `use_multi` / `keep_single` / `defer` 决策清单——先问该不该拆，再谈怎么拆。
+实现 Researcher→Writer 串行交接：结构化 Brief 交给 Writer 成稿，并用 trace 回放协作过程。
 
 ## 进度
 
