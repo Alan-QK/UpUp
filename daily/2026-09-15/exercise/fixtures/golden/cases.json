@@ -1,0 +1,50 @@
+[
+  {
+    "id": "rag-hallucination",
+    "question": "RAG 为什么能降低幻觉",
+    "expect_refuse": false,
+    "expected_sources": ["rag_basics.md"]
+  },
+  {
+    "id": "rag-steps",
+    "question": "什么是 Retrieve Augment Generate",
+    "expect_refuse": false,
+    "expected_sources": ["rag_basics.md"]
+  },
+  {
+    "id": "frontend-sse",
+    "question": "前端如何用 SSE 流式展示",
+    "expect_refuse": false,
+    "expected_sources": ["frontend.md"]
+  },
+  {
+    "id": "python-dataclass",
+    "question": "Python dataclass 和 pytest",
+    "expect_refuse": false,
+    "expected_sources": ["python.txt"]
+  },
+  {
+    "id": "prompt-refs",
+    "question": "Prompt 里参考资料怎么写",
+    "expect_refuse": false,
+    "expected_sources": ["prompt_tips.md"]
+  },
+  {
+    "id": "weather-ood",
+    "question": "今天天气怎么样",
+    "expect_refuse": true,
+    "expected_sources": []
+  },
+  {
+    "id": "crypto-ood",
+    "question": "比特币价格",
+    "expect_refuse": true,
+    "expected_sources": []
+  },
+  {
+    "id": "stock-ood",
+    "question": "明天上证指数会涨吗",
+    "expect_refuse": true,
+    "expected_sources": []
+  }
+]

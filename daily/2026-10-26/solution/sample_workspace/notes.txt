@@ -1,0 +1,1 @@
+Phase 3 里程碑笔记：Tool Agent 需要 Guard、HITL 与可回放 Trace。
